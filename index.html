@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Portfolio 2024</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="mediaqueries.css" />
+	</head>
+	<body>
+		<nav id="desktop-nav">
+			<div class="logo">Allia JARJIR</div>
+			<div>
+				<ul class="nav-links">
+					<li><a href="#about">About me</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+		<nav id="hamburger-nav">
+			<div class="logo">Allia JARJIR</div>
+			<div class="hamburger-menu">
+				<div class="hamburger-icon" onclick="toggleMenu()">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<div class="menu-links">
+					<li><a href="#about" onclick="toggleMenu()">About</a></li>
+					<li>
+						<a href="#experience" onclick="toggleMenu()"
+							>Experience</a
+						>
+					</li>
+					<li>
+						<a href="#projects" onclick="toggleMenu()">Projects</a>
+					</li>
+					<li>
+						<a href="#contact" onclick="toggleMenu()">Contact</a>
+					</li>
+				</div>
+			</div>
+		</nav>
+		<section id="profile">
+			<div class="section__text">
+				<div class="animation">
+					<dotlottie-player
+						src="https://lottie.host/62beb8cb-3667-4686-bdcb-0372e653936f/ggdxvIdv7o.json"
+						background="transparent"
+						speed="1"
+						loop
+						autoplay
+					></dotlottie-player>
+				</div>
+				<div class="presentation">
+					<p class="section__text__p1">Hello, I'm</p>
+					<h1 class="title">Allia JARJIR</h1>
+					<p class="section__text__p2">Frontend Developer</p>
+					<div class="btn-container">
+						<button
+							class="btn btn-color-2"
+							onclick="window.open('assets/Allia-JARJIR-CV-Alternance.pdf')"
+						>
+							Download CV
+						</button>
+						<button
+							class="btn btn-color-1"
+							onclick="location.href='./#contact'"
+						>
+							Contact Info
+						</button>
+					</div>
+					<div id="socials-container">
+						<img
+							src="./assets/icons8-linkedin-50.png"
+							alt="My LinkedIn profile"
+							class="icon"
+							onclick="location.href='https://linkedin.com/in/allia-jarjir-75756924b/'"
+						/>
+						<img
+							src="./assets/icons8-github-60.png"
+							alt="My Github profile"
+							class="icon"
+							onclick="location.href='https://github.com/Alliajrj'"
+						/>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="about">
+			<p class="section__text__p1">Get To Know More</p>
+			<h1 class="title">About Me</h1>
+			<div class="section-container">
+				<div class="about-details-container">
+					<div class="about-containers">
+						<div class="details-container">
+							<img
+								src="./assets/icons8-éducation-64.png"
+								alt="Education icon"
+								class="icon"
+							/>
+							<h3>Education</h3>
+							<p>
+								🚀 Currently in my second year of Coding studies
+								at IIM Digital School, I am actively seeking an
+								internship as a front-end developer.<br />
+								I stand out for my creativity and keen interest
+								in the visual appeal of my projects.
+							</p>
+						</div>
+					</div>
+					<div class="text-container">
+						<p>
+							💫 Over the past 2 years at IIM, I have learned to
+							use programming languages such as JavaScript, HTML,
+							CSS, SASS, and PHP, as well as frameworks/libraries
+							like Bootstrap, Vue.js and Node.js. <br />
+							👋 Through our soft skills/hackathon weeks, I've
+							also gained experience in teamwork, project
+							management, agile methodology, and design
+							thinking.<br />
+							💻My objective in my internship search is to
+							continuously enhance my skills while exploring new
+							approaches to coding and web design. <br />
+							🎨 By immersing myself in a professional
+							environment, I will have the opportunity to tackle
+							new challenges, refine my creative vision, and
+							perfect my technical skills.🌟<br />
+							📧 Feel free to reach out! I am open to discussions
+							and any opportunities to grow as a web developer. 🌐
+						</p>
+					</div>
+				</div>
+			</div>
+			<img
+				src="./assets/icons8-chevron-haut-64.png"
+				alt="Arrow icon"
+				class="icon arrow"
+				onclick="location.href='./#profile'"
+			/>
+		</section>
+		<section id="experience">
+			<p class="section__text__p1">Explore My</p>
+			<h1 class="title">Skills</h1>
+			<div class="about-containers">
+				<div class="skills-container">
+					<div class="article-container">
+						<article>
+							<div class="icon">
+								<img
+									src="./assets/html.png"
+									alt="Experience icon"
+								/>
+							</div>
+							<div>
+								<h3>HTML</h3>
+								<p>Experienced</p>
+							</div>
+						</article>
+						<article>
+							<div class="icon">
+								<img
+									src="./assets/css.png"
+									alt="Experience icon"
+								/>
+							</div>
+							<div>
+								<h3>CSS</h3>
+								<p>Experienced</p>
+							</div>
+						</article>
+						<article>
+							<div class="icon">
+								<img
+									src="./assets/sass.png"
+									alt="Experience icon"
+								/>
+							</div>
+							<div>
+								<h3>SASS</h3>
+								<p>Intermediate</p>
+							</div>
+						</article>
+						<article>
+							<div class="icon">
+								<img
+									src="./assets/js.png"
+									alt="Experience icon"
+								/>
+							</div>
+							<div>
+								<h3>JavaScript</h3>
+								<p>Intermediate</p>
+							</div>
+						</article>
+
+						<article>
+							<div class="icon">
+								<img
+									src="./assets/bootstrap.png"
+									alt="Experience icon"
+								/>
+							</div>
+							<div>
+								<h3>Bootstrap</h3>
+								<p>Intermediate</p>
+							</div>
+						</article>
+						<article>
+							<div class="icon">
+								<img
+									src="./assets/vuejs.png"
+									alt="Experience icon"
+								/>
+							</div>
+							<div>
+								<h3>Vue.js</h3>
+								<p>Basic</p>
+							</div>
+						</article>
+
+						<article>
+							<div class="icon">
+								<img
+									src="./assets/GitHub-logo.png"
+									alt="Experience icon"
+								/>
+							</div>
+							<div>
+								<h3>Github</h3>
+								<p>Intermediate</p>
+							</div>
+						</article>
+						<article>
+							<div class="icon">
+								<img
+									src="./assets/nodejs.png"
+									alt="Experience icon"
+								/>
+							</div>
+							<div>
+								<h3>Node.js</h3>
+								<p>Basic</p>
+							</div>
+						</article>
+						<article>
+							<div class="icon">
+								<img
+									src="./assets/PHP.png"
+									alt="Experience icon"
+								/>
+							</div>
+							<div>
+								<h3>PHP</h3>
+								<p>Basic</p>
+							</div>
+						</article>
+						<article>
+							<div class="icon">
+								<img
+									src="./assets/mysql.png"
+									alt="Experience icon"
+								/>
+							</div>
+							<div>
+								<h3>Mysql</h3>
+								<p>Basic</p>
+							</div>
+						</article>
+						<article>
+							<div class="icon">
+								<img
+									src="./assets/Wordpress.png"
+									alt="Experience icon"
+								/>
+							</div>
+							<div>
+								<h3>Wordpress</h3>
+								<p>Basic</p>
+							</div>
+						</article>
+						<article>
+							<div class="icon">
+								<img
+									src="./assets/figma.png"
+									alt="Experience icon"
+								/>
+							</div>
+							<div>
+								<h3>Figma</h3>
+								<p>Intermediate</p>
+							</div>
+						</article>
+						<article>
+							<div class="icon">
+								<img
+									src="./assets/adobe-logo.png"
+									alt="Experience icon"
+								/>
+							</div>
+							<div>
+								<h3>Adobe</h3>
+								<p>Intermediate</p>
+							</div>
+						</article>
+						<article>
+							<div class="icon">
+								<img
+									src="./assets/office.png"
+									alt="Experience icon"
+								/>
+							</div>
+							<div>
+								<h3>Office</h3>
+								<p>Intermediate</p>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div>
+
+			<img
+				src="./assets/icons8-chevron-haut-64.png"
+				alt="Arrow icon"
+				class="icon arrow"
+				onclick="location.href='./#about'"
+			/>
+		</section>
+		<section id="projects">
+			<p class="section__text__p1">Browse My</p>
+			<h1 class="title">Projects</h1>
+			<div class="experience-details-container">
+				<div class="about-containers">
+					<div class="details-container color-container">
+						<div class="article-container">
+							<img
+								src="./assets/project-1.png"
+								alt="Project 1"
+								class="project-img"
+							/>
+						</div>
+						<h2 class="experience-sub-title project-title">
+							Project One
+						</h2>
+						<div class="btn-container">
+							<button
+								class="btn btn-color-2 project-btn"
+								onclick="location.href='https://github.com/'"
+							>
+								Github
+							</button>
+							<button
+								class="btn btn-color-2 project-btn"
+								onclick="location.href='https://github.com/'"
+							>
+								Live Demo
+							</button>
+						</div>
+					</div>
+					<div class="details-container color-container">
+						<div class="article-container">
+							<img
+								src="./assets/project-2.png"
+								alt="Project 2"
+								class="project-img"
+							/>
+						</div>
+						<h2 class="experience-sub-title project-title">
+							Project Two
+						</h2>
+						<div class="btn-container">
+							<button
+								class="btn btn-color-2 project-btn"
+								onclick="location.href='https://github.com/'"
+							>
+								Github
+							</button>
+							<button
+								class="btn btn-color-2 project-btn"
+								onclick="location.href='https://github.com/'"
+							>
+								Live Demo
+							</button>
+						</div>
+					</div>
+					<div class="details-container color-container">
+						<div class="article-container">
+							<img
+								src="./assets/project-3.png"
+								alt="Project 3"
+								class="project-img"
+							/>
+						</div>
+						<h2 class="experience-sub-title project-title">
+							Project Three
+						</h2>
+						<div class="btn-container">
+							<button
+								class="btn btn-color-2 project-btn"
+								onclick="location.href='https://github.com/'"
+							>
+								Github
+							</button>
+							<button
+								class="btn btn-color-2 project-btn"
+								onclick="location.href='https://github.com/'"
+							>
+								Live Demo
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<img
+				src="./assets/icons8-chevron-haut-64.png"
+				alt="Arrow icon"
+				class="icon arrow"
+				onclick="location.href='./#experience'"
+			/>
+		</section>
+		<section id="contact">
+			<p class="section__text__p1">Get in Touch</p>
+			<h1 class="title">Contact Me</h1>
+			<div class="contact-info-upper-container">
+				<div class="contact-info-container">
+					<img
+						src="./assets/icons8-nouveau-message-48.png"
+						alt="Email icon"
+						class="icon contact-icon email-icon"
+					/>
+					<p>
+						<a href="mailto:examplemail@gmail.com"
+							>ajarjir92@gmail.com</a
+						>
+					</p>
+				</div>
+				<div class="contact-info-container">
+					<img
+						src="./assets/icons8-linkedin-50.png"
+						alt="LinkedIn icon"
+						class="icon contact-icon"
+					/>
+					<p>
+						<a
+							href="https://linkedin.com/in/allia-jarjir-75756924b/"
+							>LinkedIn</a
+						>
+					</p>
+				</div>
+			</div>
+			<img
+				src="./assets/icons8-chevron-haut-64.png"
+				alt="Arrow icon"
+				class="icon arrow"
+				onclick="location.href='./#projects'"
+			/>
+		</section>
+		<footer>
+			<nav>
+				<div class="nav-links-container">
+					<ul class="nav-links">
+						<li><a href="#about">About</a></li>
+						<li><a href="#experience">Experience</a></li>
+						<li><a href="#projects">Projects</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</div>
+			</nav>
+			<p>Copyright &#169; 2023 Allia JARJIR. All Rights Reserved.</p>
+		</footer>
+		<script
+			src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+			type="module"
+		></script>
+		<script src="script.js"></script>
+	</body>
+</html>

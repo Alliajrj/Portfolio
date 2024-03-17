@@ -409,7 +409,7 @@ article .icon {
 
 .project-btn:hover {
 	color: var(--color-text-1);
-	background-color: transparentFfon;
+	background-color: transparent;
 }
 
 /* CONTACT */

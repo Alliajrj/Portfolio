@@ -407,12 +407,15 @@ article .icon {
 	background-color: var(--color-text-1);
 }
 
+button>a {
+	color: var(--color-white);
+}
+
 .project-btn:hover {
 	color: var(--color-text-1);
 	background-color: transparent;
 }
 
-/* CONTACT */
 
 #contact {
 	display: flex;

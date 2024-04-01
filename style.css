@@ -1,5 +1,3 @@
-/* GENERAL */
-
 @import url("https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap");
 @import "./variables.css";
 
@@ -33,23 +31,19 @@ p {
 	font-weight: 600;
 }
 
-/* TRANSITION */
-
-a {
+li>a {
 	text-decoration: none;
 	color: var(--color-text-1);
 }
 
-a:hover {
+li>a:hover {
 	color: var(--color-white);
 }
 
-a,
+li>a,
 .btn {
 	transition: all 300ms ease;
 }
-
-/* DESKTOP NAV */
 
 nav,
 .nav-links {
@@ -88,8 +82,6 @@ nav {
 .logo:hover {
 	cursor: pointer;
 }
-
-/* HAMBURGER MENU */
 
 #hamburger-nav {
 	display: none;
@@ -173,8 +165,6 @@ nav {
 	transform: none;
 }
 
-/* SECTIONS */
-
 section {
 	padding-top: 4vh;
 	height: 96vh;
@@ -186,8 +176,6 @@ section {
 .section-container {
 	display: flex;
 }
-
-/* PROFILE SECTION */
 
 #profile {
 	display: flex;
@@ -239,14 +227,10 @@ section {
 	gap: 1rem;
 }
 
-/* ICONS */
-
 .icon {
 	cursor: pointer;
 	height: 2rem;
 }
-
-/* BUTTONS */
 
 .btn-container {
 	display: flex;
@@ -282,8 +266,6 @@ section {
 .btn-container {
 	gap: 1rem;
 }
-
-/* ABOUT SECTION */
 
 #about {
 	position: relative;
@@ -337,8 +319,6 @@ section {
 	margin: auto 0;
 }
 
-/* EXPERIENCE SECTION */
-
 #experience {
 	position: relative;
 }
@@ -376,11 +356,6 @@ article .icon {
 	width: 2rem !;
 }
 
-
-
-
-/* PROJECTS SECTION */
-
 #projects {
 	position: relative;
 }
@@ -403,19 +378,20 @@ article .icon {
 }
 
 .project-btn {
-	color: var(--color-white);
-	background-color: var(--color-text-1);
-}
-
-button>a {
-	color: var(--color-white);
-}
-
-.project-btn:hover {
-	color: var(--color-text-1);
+	border: var(--color-text-1) 0.1rem solid;
 	background-color: transparent;
 }
 
+.project-btn:hover {
+	a{
+		color: var(--color-white);
+	}
+}
+
+button>a {
+	color: var(--color-text-1);
+	text-decoration: none;
+}
 
 #contact {
 	display: flex;
@@ -455,8 +431,6 @@ button>a {
 .email-icon {
 	height: 2.5rem;
 }
-
-/* FOOTER SECTION */
 
 footer {
 	height: 26vh;

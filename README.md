@@ -9,7 +9,7 @@ I'm a 21-year-old web-development student in my second year of Coding Digital In
 ## Contact
 
 - Email: ajarjir92@gmail.com
-- LinkedIn: [My LinkedIn Profile]((https://www.linkedin.com/in/allia-jarjir-75756924b/))
+- LinkedIn: ([My LinkedIn Profile](https://www.linkedin.com/in/allia-jarjir-75756924b/))
 
 
 Thank you for visiting my portfolio!
